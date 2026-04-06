@@ -1,0 +1,63 @@
+.mypage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mypage-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mypage-button:hover {
+  background-color: #45a049;
+}
