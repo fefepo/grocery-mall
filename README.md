@@ -6,7 +6,7 @@
 ---
 
 ## ⚙️ 개발환경
-- React
+- React(javascript + css)
 - Firebase
 
 ---
